@@ -3,11 +3,11 @@ class Solution {
         // person = row
         // account = col
         int ans  = Integer.MIN_VALUE;
-        for(int[] ints : accounts ){
+        for(int[] row : accounts ){
             // when you start a new col, take a new sum for that row
             int sum = 0;
-            for(int anInt : ints ){
-                sum += anInt;
+            for(int col : row ){
+                sum += col;
             }
 
             // now we have sum of accounts of person
@@ -18,4 +18,6 @@ class Solution {
             }
         }
         return ans;
+    }
+}
     
