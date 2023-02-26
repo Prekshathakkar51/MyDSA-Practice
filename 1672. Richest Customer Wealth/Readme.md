@@ -1,6 +1,6 @@
-You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
+## 1672. Richest Customer Wealth
 
-A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+### You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 
  
 
@@ -33,7 +33,7 @@ Output: 17
 
 Constraints:
 
-m == accounts.length
-n == accounts[i].length
-1 <= m, n <= 50
-1 <= accounts[i][j] <= 100
+- m == accounts.length
+- n == accounts[i].length
+- 1 <= m, n <= 50
+- 1 <= accounts[i][j] <= 100
