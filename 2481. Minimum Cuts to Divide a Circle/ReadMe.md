@@ -6,13 +6,15 @@
 ### A cut that is represented by a straight line that touches one point on the edge of the circle and its center.
 ### Some valid and invalid cuts are shown in the figures below.
 
+<img src="https://user-images.githubusercontent.com/95307102/224220392-2dbed672-121a-4429-ae28-d07c385e3ffb.png">
 
 ### Given the integer n, return the minimum number of cuts needed to divide a circle into n equal slices.
 
- 
+
 ```` 
 Example 1:
 
+<img src="https://user-images.githubusercontent.com/95307102/224220467-6562f00a-73ca-415a-aa98-1430e1a68e58.png">
 
 Input: n = 4
 Output: 2
@@ -22,7 +24,7 @@ The above figure shows how cutting the circle twice through the middle divides i
 
 ```` 
 Example 2:
-
+<img src="https://user-images.githubusercontent.com/95307102/224220529-e5b1a1f7-b5ac-400d-bfba-e745a534557a.png">
 
 Input: n = 3
 Output: 3
