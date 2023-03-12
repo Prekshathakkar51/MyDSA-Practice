@@ -4,8 +4,8 @@ class Solution {
         int ans = 0;
 
         for(char s: columnTitle.toCharArray()){
-            int d = s - 'A' +1;
-            ans = ans*26 + d;
+            ans = ans*26;
+            ans = ans + (s -'A' + 1);
         }
         return ans;
     }
