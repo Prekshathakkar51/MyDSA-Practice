@@ -4,15 +4,22 @@ You are given an array coordinates, coordinates[i] = [x, y], where [x, y] repres
 
  
 
+
  
 
 Example 1:
+
+<img src="https://user-images.githubusercontent.com/95307102/225392048-91fb88fd-199a-4989-b234-f634d7252940.png">
+
 ````
 Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
 Output: true
 ````
 
 Example 2:
+
+<img src="https://user-images.githubusercontent.com/95307102/225393510-919ffcb4-5dfc-4456-b0fd-900d1a42edea.png">
+
 ````
 Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
 Output: false
