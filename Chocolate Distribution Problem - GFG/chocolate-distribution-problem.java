@@ -41,15 +41,15 @@ class Solution
         // your code here
         Collections.sort(a);
         int minD = Integer.MAX_VALUE;
-        int i = 0;
-        int e = i+m-1;
-        for(i = 0;i+m-1<n;i++){
+        // int i = 0;
+        // int e = i+m-1;
+        for(int i = 0, e = i+m-1;e<n;i++,e++){
             int diff = a.get(e) - a.get(i);
             minD = Math.min(diff,minD);
             // if(diff<minD){
             //     minD = diff;
             // }
-            e++;
+            // e++;
         }
         return minD;
     }
